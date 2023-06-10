@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="imagens/escola.png" />
+    <script src="js/script.js"></script>
+    <title>Escola Piloto</title>
+  </head>
+  <body>
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="imagens/edu.jpg" width="100" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#escola">Escola</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeria">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#infraestrutura">Infraestrutura</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#onde">Onde Estamos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <img
+      src="imagens/mural-de-boas-vindas-para-escola-criancas-volta-as-aulas-bem-vindos-criancas.jpg"
+      width="100%"
+      height="500"
+    />
+
+    <!-- Slides -->
+    <section id="galeria">
+      <div id="carouselExampleControls" class="carousel slide"  data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img
+              src="imagens/capa-blog-diferenciar-escola-min.png"
+              width="290"
+              height="500"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="imagens/escolas-Escola-Classe-401-8.jpg" width="290" height="500" class="d-block w-100" alt="..."/>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="imagens/projeto1.png" width="290" height="500" class="d-block w-100" alt="..."/>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="imagens/projetos2.png" width="290" height="500" class="d-block w-100" alt="..."/>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="imagens/projeto3.png" width="290" height="500" class="d-block w-100" alt="..."/>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="imagens/projeto4.jpg" width="290" height="500" class="d-block w-100" alt="..."/>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="imagens/Empreender.jpg" width="290" height="500" class="d-block w-100" alt="..."/>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="imagens/Modernizacao-de-escolas-696x464.jpeg"
+              width="290"
+              height="500"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="imagens/sua-escola-e-uma-empresa.jpg"
+              width="290"
+              height="500"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="imagens/WhatsApp-Image-2023-04-13-at-06.09.11-1024x768.jpeg"
+              width="290"
+              height="500"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="imagens/projeto1.jpg"
+              width="290"
+              height="500"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <br />
+
+    <!--Sobre a Escola-->
+
+    <h3>Sobre A Escola</h3>
+
+    <section id="escola">
+      <div class="card" class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="card-body">
+          <h6>0431018 ESCOLA MUNICIPAL REPUBLICA DO LIBANO</h6>
+          <img src="imagens/school.png" height="17" /> Escola Municipal</p>
+          <p> <img src="imagens/mapa.png" height="17"/> Pca Elba, 1215- Vigario Geral, Rio De Janeiro - RJ</p>
+           <p> <img src="imagens/telephone.png" height="17"/> (21) 2475-9200</p>
+          <p> <img src="imagens/mail.png" height="17"/> emlibano@rioeduca.net</p>
+          <button type="button" style="--bs-btn-padding-y: 0.25rem; --bs-btn-padding-x: 0.5rem; --bs-btn-font-size: 0.75rem;" class="btn btn-outline-primary" data-bs-toggle="modal"data-bs-target="#staticBackdrop">NSE Médio Baixo</button>
+          <button type="button" style="--bs-btn-padding-y: 0.25rem; --bs-btn-padding-x: 0.5rem; --bs-btn-font-size: 0.75rem;" class="btn btn-outline-primary" data-bs-toggle="modal"data-bs-target="#staticBackdrop3">Rendimento Escolar</button>
+          <button type="button" style="--bs-btn-padding-y: 0.25rem; --bs-btn-padding-x: 0.5rem; --bs-btn-font-size: 0.75rem;" class="btn btn-outline-primary" data-bs-toggle="modal"data-bs-target="#staticBackdrop4">Censo Escolar</button>
+          <button type="button" style="--bs-btn-padding-y: 0.25rem; --bs-btn-padding-x: 0.5rem; --bs-btn-font-size: 0.75rem;" class="btn btn-outline-primary"
+          data-bs-toggle="modal" data-bs-target="#staticBackdrop2">Situação da Escola</button>
+          <button type="button" style="--bs-btn-padding-y: 0.25rem; --bs-btn-padding-x: 0.5rem; --bs-btn-font-size: 0.75rem;" class="btn btn-outline-primary"
+          data-bs-toggle="modal" data-bs-target="#staticBackdrop5">Atendimento</button>
+          <button type="button" style="--bs-btn-padding-y: 0.25rem; --bs-btn-padding-x: 0.5rem; --bs-btn-font-size: 0.75rem;" class="btn btn-outline-primary"
+          data-bs-toggle="modal" data-bs-target="#staticBackdrop5">Horário Escolar</button>
+        </div>
+          <p>A Escola Municipal República do Líbano, está localizada à Praça Elba nº 1215, Vigário Geral – Rio de Janeiro. Mantida pelo Município do Rio de Janeiro e administrada pela Secretaria Municipal de Educação, norteará todo o seu trabalho por este Projeto Político Pedagógico, nos termos da legislação em vigor.</p>
+      
+          <p>Estamos constantemente procurando maneiras de melhorar a experiência
+            educacional de nossos alunos, fornecendo para eles os melhores recursos
+            e ferramentas para ajudá-los a desenvolver suas habilidades e
+            conhecimentos.</p>
+          <p>Fachada da Escola (hoje Municipal) República do Líbano. Grande parte das
+            escolas públicas construídas nos subúrbios tomaram terrenos de praças,
+            exatamente por serem (na época) terrenos baldios em meio aos
+            loteamentos. Existem praças completamente tomadas por escolas, minando o
+            sentido social desses locais públicos. Foto do local atualmente nos
+            comentários. Acervo: Arquivo Nacional.</p>
+      </div>
+      <br/>
+      
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="imagens/Escola-Municipal-Republica-do-Libano-em-Vigario-Geral-no-Rio-de-Janeiro.png"
+              height="260"
+              class="card-img-top"
+              alt="fachada da escola inaugurada em 1953"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Fechada da Escola Na Época</h5>
+              <p class="card-text">
+                Localizada na Praça Elba, foi inaugurada em 1953 para atender as
+                crianças daquele pacato bairro.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="imagens/rep1969.jpeg"
+              height="260"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Espaço Interno</h5>
+              <p class="card-text">
+                Grande parte das escolas públicas construídas nos subúrbios
+                tomaram terrenos de praças, exatamente por serem (na época)
+                terrenos baldios em meio aos loteamentos.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="imagens/escola.jpeg"
+              height="260"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Entrada Principal</h5>
+              <p class="card-text">
+                A entrada principal da escola, que era utilizada apenas pelos
+                professores, existia outro portão mais a frente, na qual era
+                utilizada para entrada de pais e alunos.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="imagens/download.jpeg"
+              height="260"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Fechada Atualmente</h5>
+              <p class="card-text">
+                Atualmente essa é a entrada principal da escola, totalmente
+                reformada por fora e por dentro, oferecendo uma melhor estrutura
+                para os alunos e professores.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+    </section>
+
+    <section id="infraestrutura">
+      
+      <div class="row" id="infra">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="row">
+              <h5 style="text-align:center">Infraestrutura</h5>
+              <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="imagens/escola_acessivel.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="imagens/acessibilidade.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="imagens/sanitarios.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="imagens/alimentacao.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="imagens/agua.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="imagens/banheiros.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="imagens/biblioteca.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="imagens/cozinha.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="imagens/leitura.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="imagens/esportes.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="imagens/sala.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="imagens/sala_especial.png" />
+                  </div>  
+                </div>
+                <br/>
+            </div>
+          </div>
+          <p style="text-align:center">Fonte: Censo Escolar 2022, INEP</p>  
+        </div>
+        <br/>
+      </div>
+    </section>
+
+    <!-- Localização-->
+    <section id="onde" class="localizacao">
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="card-body">
+            <h4>Onde Estamos</h4>
+            <div class="mapa-conteudo">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.707568413461!2d-43.31230812558592!3d-22.81329723453487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997b180e933627%3A0x376649cb4352e8e!2sPra%C3%A7a%20Elba%2C%201215%20-%20Vig%C3%A1rio%20Geral%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2021241-170!5e0!3m2!1sen!2sbr!4v1685667988392!5m2!1sen!2sbr" width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>  
+        </div>
+        <br/>
+    </div>
+      
+    </section>
+
+    <br />
+
+    <!-- Sessão de Contato -->
+    <section class="formcontato">
+      <div id="contato" class="formcontato__contacto">
+        <div class="formcontato__text">
+          <h3 class="formcontato__title">Contato</h3>
+          <h4 class="formcontato__subtext">
+            Preencha o formulário e envie sua mensagem.
+          </h4>
+          <form class="formcontato__form">
+            <input
+              class="formcontato__input"
+              type="text"
+              id="nome"
+              placeholder="Nome"
+              required
+            /><br />
+            <input
+              class="formcontato__input"
+              type="email"
+              id="email"
+              placeholder="Email"
+              required
+            /><br />
+            <input
+              class="formcontato__input"
+              type="text"
+              id="assunto"
+              placeholder="Assunto"
+              required
+            /><br />
+            <textarea
+              class="formcontato__textarea"
+              rows="6"
+              cols="30"
+              onkeyup="limite_textarea(this.value)"
+              id="mensagem"
+              name="mensagem"
+              placeholder="Sua mensagem"
+              required
+            ></textarea>
+            <span
+              id="cont"
+              title="A mensagem não poderá ser enviada caso esse limite seja excedido"
+              >300</span
+            >Caracteres Restantes <br /><br />
+            <button class="formcontato__botao" onclick="validaCampos()">
+              Enviar mensagem</button
+            ><br />
+
+            <!-- Redes Sociais (algumas são fictícias)-->
+            <section class="network">
+              <div id="redes" class="redes_sociais">
+                
+                <a href="www.twitter.com" target="_blank"
+                  ><img src="imagens/twitter.png" height="30" title="Twitter"
+                /></a>
+                <a
+                  href="https://www.facebook.com/emrepublicadolibano/?locale=pt_BR"
+                  target="_blank"
+                  ><img src="imagens/facebook.png" height="30" title="Facebook"
+                /></a>
+                <a href="www.instagram.com" target="_blank"
+                  ><img
+                    src="imagens/instagram.png"
+                    height="30"
+                    title="Instagram"
+                /></a>
+                <a href="www.linkedin.com" target="_blank"
+                  ><img src="imagens/linkedin.png" height="30" title="Linkedin"
+                /></a><br/><br/>
+              </div>
+                
+            </section>
+            
+          </form>
+        </div>
+      </div>
+      <br />
+    </section>
+
+    <section class="footer">
+      <div class="footer__rodape">
+        <p>®2023 Todos os direitos reservados</p>
+        <p>Desenvolvido por Gil Moura</p>
+      </div>
+    </section>
+
+    <!-- Seta que leva o usuário ao início da página -->
+    <div class="arrow">
+      <a href="#"
+        ><img
+          src="imagens/up-arrow.png"
+          height="40"
+          title="Voltar ao topo"
+          alt="Seta para voltar ao início do site"
+      /></a>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+              Classificação NSE 4
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Neste nível, os estudantes estão até meio desvio-padrão abaixo da
+            média nacional do Inse. Considerando a maioria dos estudantes, a
+            mãe/responsável e o pai/responsável têm o ensino fundamental
+            incompleto ou completo e/ou ensino médio completo. A maioria possui
+            uma geladeira, um ou dois quartos, um banheiro, wi-fi, máquina de
+            lavar roupas e freezer, mas não possui aspirador de pó. Parte dos
+            estudantes deste nível passa a ter também computador, carro, mesa de
+            estudos, garagem, forno de micro-ondas e uma ou duas televisões.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+            >
+              OK
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Rendimento Escolar -->
+    <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+              Situação da Escola
+            </h1>
+            <button
+              type="button"
+              class="btn btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img src="imagens/graduated.png" /><p>Matrículas: 408</p>
+            <div class="modal-footer"></div>
+            <img src="imagens/dislike.png" /><p>Reprovações: 0</p>
+            <div class="modal-footer"></div>
+            <img src="imagens/logout.png" /><p>Abandonos: 0</p>
+            <div class="modal-footer"></div>
+            <img src="imagens/teach.png" /><p>Professores: 33</p>
+          </div><div class="modal-footer">
+            Fonte: Censo Escolar 2022, INEP
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+              Rendimento Escolar
+            </h1>
+            <button
+              type="button"
+              class="btn btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>O Indicador de Rendimento, ou como nós chamamos no QEdu, Fluxo, é um conceito muito importante na educação brasileira. Primeiro, porque é ele que nos diz se os alunos estão permanecendo na escola e avançando nos anos escolares. Segundo, que é um dos componentes utilizados no cálculo do Ideb.</p>
+            <p>Por movimento escolar entende-se a mudança de vínculo escolar de cada uma das matrículas relativas à escolarização ocorrida no período entre a data de referência do Censo Escolar e o encerramento do ano letivo. Existem três situações possíveis no movimento escolar da matrícula:</p>
+            <p><strong>Transferido:</strong> Quando a matrícula do aluno foi formalmente desvinculada de uma escola;</p>
+            <p><strong>Deixou de frequentar:</strong> Quando houve abandono da escola, ou seja, o aluno deixou de frequentar a escola antes da conclusão do ano letivo, não tendo sido formalmente desvinculado  por transferência, portanto a sua matrícula não possui registro de rendimento;</p>
+            <p><strong>Falecido:</strong> Quando o aluno faleceu antes do término do ano letivo.</p>
+            <div class="modal-footer"> </div>
+            <p>O rendimento escolar é a situação de êxito ou insucesso do aluno, por matrícula, ao final do ano letivo. São duas as situações possíveis para o rendimento escolar de cada matrícula:</p>
+            <p style="color:green"><strong>Aprovado: </strong>Quando conclui o ano escolar com sucesso. Portanto, está apto a se matricular na próxima etapa, no ano seguinte;</p>
+            <p style="color:red"><strong>Reprovado: </strong>Quando não obtém êxito na conclusão do ano letivo. Portanto, não está apto a se matricular na próxima etapa, no ano seguinte.</p>
+          </div>
+          <div class="modal-footer">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="staticBackdrop4"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+              Censo Escolar
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            O Censo Escolar é aplicado anualmente em todo o Brasil, coletando informações sobre diversos aspectos das escolas brasileiras, em especial as matrículas e infraestrutura.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+            >
+              OK
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Atendimento -->
+    <div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Atendimento</h1>
+            <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Manhã: 08:00 às 11:00</p>
+            <div class="modal-footer"></div>
+            <p>Tarde: 13:30 às 15:30</p>
+            <div class="modal-footer"></div>
+            <p>Noite: 20:00 às 21:30</p>
+            <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Horário Escolar -->
+    <div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+              Situação da Escola
+            </h1>
+            <button
+              type="button"
+              class="btn btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>Manhã: 07:30 às 11:40</p>
+            <div class="modal-footer"></div>
+            <p>Tarde: 13:00 às 17:30</p>
+            <div class="modal-footer"></div>
+            <p>Noite: 19:00 às 22:00</p>
+            <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts Bootstrap e JS -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

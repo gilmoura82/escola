@@ -1,0 +1,95 @@
+nav img {
+  mix-blend-mode: multiply;
+}
+
+body { 
+  overflow-x: hidden; 
+}
+
+.formcontato__contacto {
+  display:flex;
+}
+
+.formcontato__text .formcontato__title, .formcontato__subtext {
+  text-align: center;
+}
+
+.formcontato__form {
+  display: flex;
+  flex-direction: column;
+  width:400px;
+  margin:auto;
+}
+
+.formcontato__text {
+  border-radius: 5px;
+  border:1px solid lightseagreen;
+  box-shadow: border-box;
+  width: 700px;
+  height:560px;
+  transition: all 0.3s ease-out;
+  margin:auto;
+}
+
+.formcontato__input {
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: #000;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  border-bottom: 1px solid steelblue;
+  background:none;
+  
+}
+
+.formcontato__textarea {
+  border:1px solid steelblue;
+  background:none;
+}
+
+.formcontato__botao {
+  height:30px;
+  background-color: darkgrey;
+  border:none;
+  border-radius:5px;
+  width:400px;
+  transition: all 0.3s ease-out;
+}
+
+.formcontato__botao:hover {
+  background-color:steelblue;
+  color:#FFF;
+  cursor:pointer;
+}
+
+.arrow {
+  text-align: center;
+  cursor:pointer;
+}
+
+#redes {
+  text-align: center;
+  margin:5px;
+}
+
+.footer__rodape {
+  text-align: center;
+}
+
+#infra img {
+  margin:auto;
+  display:block;
+}
+
+#infra .card {
+  margin-top:5px;
+}
+
+#escola button {
+  margin-top:5px;
+}
+
+.localizacao h4 {
+  text-align: center;
+}
